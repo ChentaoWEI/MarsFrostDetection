@@ -1,0 +1,30 @@
+{
+  "external_id": "ESP_018002_1820_40960_46080_25600_29510.png",
+  "observation_id": "ESP_018002_1820",
+  "resolution": 0.5,
+  "original_resolution": 0.25,
+  "tile_bbox": "POLYGON ((2392 3588, 2392 4186, 1794 4186, 1794 3588, 2392 3588))",
+  "subframe_classifications": [
+    {
+      "labeler": "automated",
+      "classification": [
+        {
+          "feature_schema_id": "automated",
+          "frost_present": "false"
+        },
+        {
+          "feature_schema_id": "automated",
+          "confidence": "high_90"
+        }
+      ]
+    }
+  ],
+  "annotations": [],
+  "class": "background",
+  "image_coords": [
+    44548,
+    45146,
+    27394,
+    27992
+  ]
+}

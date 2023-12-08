@@ -1,0 +1,75 @@
+{
+  "external_id": "positive_v3/subframes_v2/ESP_019781_1300_5120_10240_5120_10240.png",
+  "observation_id": "ESP_019781_1300",
+  "resolution": 0.5,
+  "original_resolution": 0.5,
+  "tile_bbox": "POLYGON ((1495 1196, 1495 1495, 1196 1495, 1196 1196, 1495 1196))",
+  "subframe_classifications": [
+    {
+      "labeler": "labeler_4",
+      "classification": [
+        {
+          "feature_schema_id": "ckzpw8a9g9xs60zc9d0vrfads",
+          "frost_present": "true"
+        }
+      ]
+    },
+    {
+      "labeler": "labeler_1",
+      "classification": [
+        {
+          "feature_schema_id": "ckzpw8a9g9xs60zc9d0vrfads",
+          "frost_present": "true"
+        }
+      ]
+    },
+    {
+      "labeler": "labeler_6",
+      "classification": [
+        {
+          "feature_schema_id": "ckzpw8a9g9xs60zc9d0vrfads",
+          "frost_present": "false"
+        },
+        {
+          "feature_schema_id": "ckzpw8a9g9xsa0zc9bdslemfl",
+          "confidence": "low"
+        }
+      ]
+    }
+  ],
+  "annotations": [
+    {
+      "labeler": "labeler_4",
+      "overlap_proportion": 1.0,
+      "class": "frost",
+      "feature_schema_id": "cl12i4l4g0d2k0z7r2zz12q4c",
+      "shapely": "POLYGON ((0 0, 274.742 357.804, 193.81 451.514, 304.559 558.003, 534.576 575.042, 934.975 1179.9, 879.601 1205.458, 785.89 1128.785, 606.988 1209.717, 819.967 1426.955, 926.456 1473.81, 934.975 1554.742, 1207.587 1708.087, 1386.489 1567.521, 1599.468 1746.423, 1714.476 1703.827, 1590.948 1443.993, 1573.91 1141.564, 1203.328 868.952, 726.256 306.689, 479.201 127.787, 415.308 123.527, 304.559 0, 0 0))",
+      "frost_context": [
+        "uniform_albedo"
+      ],
+      "frost_type": "unknown_type",
+      "confidence": "medium_70_89",
+      "geologic_context": "other"
+    },
+    {
+      "labeler": "labeler_1",
+      "overlap_proportion": 1.0,
+      "class": "frost",
+      "feature_schema_id": "cl12i4l4g0d2k0z7r2zz12q4c",
+      "shapely": "POLYGON ((323.131 0, 451.131 110.722, 653.797 222.722, 957.797 564.056, 1245.797 894.722, 1576.464 1129.389, 1571.131 1364.056, 1704.464 1689.389, 1267.131 1764.056, 1459.131 1630.722, 1395.131 1534.722, 1229.797 1641.389, 931.131 1625.389, 803.131 1369.389, 568.464 1193.389, 819.131 921.389, 579.131 596.056, 296.464 606.722, 147.131 350.722, 291.131 361.389, 61.797 0, 323.131 0))",
+      "frost_context": [
+        "uniform_albedo"
+      ],
+      "frost_type": "unknown_type",
+      "confidence": "medium_70_89",
+      "geologic_context": "other"
+    }
+  ],
+  "class": "frost",
+  "image_coords": [
+    6316,
+    6615,
+    6316,
+    6615
+  ]
+}
